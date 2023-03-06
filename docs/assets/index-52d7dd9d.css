@@ -10,7 +10,7 @@ body {
   height: 100vh;
 }
 .left {
-  background-image: url(assets/photo-1585202900225-6d3ac20a6962-5857c5ae.avif);
+  background-image: url(photo-1585202900225-6d3ac20a6962-5857c5ae.avif);
   background-size: cover;
   flex: 2;
   color: #fff;
