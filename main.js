@@ -3,7 +3,7 @@ import "./style.scss";
 const form = document.getElementById("myForm");
 form.addEventListener("submit", submitForm);
 
-const warningText = "* Password do not match";
+const warningText = "* Passwords do not match";
 const warningP = document.getElementById("warning");
 
 function submitForm(event) {

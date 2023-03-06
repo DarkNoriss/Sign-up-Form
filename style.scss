@@ -13,8 +13,9 @@ body {
 }
 
 .left {
-  background-image: url("./img/photo-1585202900225-6d3ac20a6962.avif");
+  background-image: url("https://raw.githubusercontent.com/DarkNoriss/Sign-up-Form/master/img/photo-1585202900225-6d3ac20a6962.avif");
   background-size: cover;
+  background-color: #cbdfbd;
   flex: 2;
   color: white;
 
@@ -43,13 +44,13 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #a07bdb;
+  background-color: #f6f4d2;
   flex: 3;
 
   & form {
     display: flex;
     flex-direction: column;
-    background-color: #65dc7f;
+    background-color: #d4e09b;
     padding-top: 2rem;
   }
   &-form {
@@ -74,6 +75,7 @@ body {
       width: 35%;
 
       & input {
+        height: 2rem;
         border: 0.2rem solid #e5e7eb;
         border-radius: 0.5rem;
       }
@@ -87,11 +89,11 @@ body {
     display: flex;
     align-items: flex-end;
     flex: 1;
-    background-color: #65dc7f;
+    background-color: #d4e09b;
 
     & button {
       border-radius: 1rem;
-      background-color: #db9c4f;
+      background-color: #f19c79;
       border: none;
       color: white;
       font-size: 1.5rem;
@@ -99,16 +101,16 @@ body {
       padding: 1rem 3rem;
     }
     & :hover {
-      background-color: blue;
+      background-color: #a44a3f;
     }
   }
   &-login {
-    background-color: #65dc7f;
+    background-color: #d4e09b;
     padding-bottom: 2rem;
     font-size: 1.5rem;
 
     & a {
-      color: #db9c4f;
+      color: #f19c79;
     }
   }
 }
